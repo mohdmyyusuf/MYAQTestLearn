@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [NDTV Test Suite]" parallel="tests">
+  <test thread-count="1" name="NDTVTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.ndtv.qa.testcases.NDTVWetherPageTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="testSetUp"/>
+          <include name="verifyWetherLink"/>
+        </methods>
+      </class> <!-- com.ndtv.qa.testcases.NDTVWetherPageTest -->
+      <class name="com.ndtv.qa.testcases.NDTVHomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetUp"/>
+          <include name="validateLogoTest"/>
+        </methods>
+      </class> <!-- com.ndtv.qa.testcases.NDTVHomePageTest -->
+    </classes>
+  </test> <!-- NDTVTest(failed) -->
+</suite> <!-- Failed suite [NDTV Test Suite] -->

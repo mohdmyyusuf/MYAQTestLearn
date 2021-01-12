@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NDTV Test Suite" duration-ms="93165" started-at="2020-11-25T07:22:15Z" finished-at="2020-11-25T07:23:48Z">
+    <groups>
+    </groups>
+    <test name="NDTVTest" duration-ms="93165" started-at="2020-11-25T07:22:15Z" finished-at="2020-11-25T07:23:48Z">
+      <class name="com.ndtv.qa.testcases.NDTVWetherPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.ndtv.qa.testcases.NDTVWetherPageTest@5cb9f472]" name="SetUp" is-config="true" duration-ms="32330" started-at="2020-11-25T07:22:15Z" finished-at="2020-11-25T07:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyWetherLink()[pri:0, instance:com.ndtv.qa.testcases.NDTVWetherPageTest@5cb9f472]" name="verifyWetherLink" duration-ms="5527" started-at="2020-11-25T07:22:48Z" finished-at="2020-11-25T07:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWetherLink -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:com.ndtv.qa.testcases.NDTVWetherPageTest@5cb9f472]" name="closeTest" is-config="true" duration-ms="871" started-at="2020-11-25T07:22:53Z" finished-at="2020-11-25T07:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.ndtv.qa.testcases.NDTVWetherPageTest -->
+      <class name="com.ndtv.qa.testcases.NDTVHomePageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="testSetUp" is-config="true" duration-ms="10951" started-at="2020-11-25T07:22:54Z" finished-at="2020-11-25T07:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="verifyHomePageTitleTest" duration-ms="92" started-at="2020-11-25T07:23:05Z" finished-at="2020-11-25T07:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="900" started-at="2020-11-25T07:23:05Z" finished-at="2020-11-25T07:23:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="testSetUp" is-config="true" duration-ms="9535" started-at="2020-11-25T07:23:06Z" finished-at="2020-11-25T07:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="validateLogoTest()[pri:2, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="validateLogoTest" duration-ms="797" started-at="2020-11-25T07:23:16Z" finished-at="2020-11-25T07:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="781" started-at="2020-11-25T07:23:16Z" finished-at="2020-11-25T07:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="testSetUp" is-config="true" duration-ms="10323" started-at="2020-11-25T07:23:17Z" finished-at="2020-11-25T07:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="logiTest()[pri:3, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="logiTest" duration-ms="19927" started-at="2020-11-25T07:23:27Z" finished-at="2020-11-25T07:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logiTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ndtv.qa.testcases.NDTVHomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="1076" started-at="2020-11-25T07:23:47Z" finished-at="2020-11-25T07:23:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ndtv.qa.testcases.NDTVHomePageTest -->
+    </test> <!-- NDTVTest -->
+  </suite> <!-- NDTV Test Suite -->
+</testng-results>

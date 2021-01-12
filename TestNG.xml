@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="NDTV Test Suite" annotations="JDK" parallel="tests">
+         
+  <test name="NDTVTest">
+	 <classes>
+	   <class name="com.ndtv.qa.testcases.NDTVHomePageTest"/>
+	   <class name="com.ndtv.qa.testcases.NDTVWetherPageTest"/>
+	 </classes>
+   </test>
+ 
+</suite>
